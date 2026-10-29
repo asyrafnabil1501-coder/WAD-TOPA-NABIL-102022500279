@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #2F5D50;
+    --primary-hover: #24483E;
+    --accent-color: #ecb349;
+    --bg-color: #FAFAF7;
+    --text-color: #212529;
+    --border-color: #DEE2E6;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-image: url('');
+    color: var(--text-color);
+}
+
+.navbar-custom { background-color: var(--primary-color); }
+.navbar-custom .navbar-brand, .navbar-custom .nav-link { color: #FFFFFF; }
+.navbar-custom .nav-link:hover, .navbar-custom .nav-link.active { color: var(--accent-color); }
+
+.hero-section {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--border-color);
+    background-color: #FFFFFF;
+}
+
+.form-card {
+    background-color: #FFFFFF;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 1.5rem;
+}
+
+.btn-primary-custom {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+.btn-primary-custom:hover { background-color: var(--primary-hover); color: #FFFFFF; }
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(47, 93, 80, 0.25);
+}
+
+.footer-custom {
+    background-color: #FFFFFF;
+    border-top: 1px solid var(--border-color);
+    padding: 1rem 0;
+    color: #6C757D;
+    font-size: 0.9rem;
+}
